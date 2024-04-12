@@ -11,7 +11,7 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Abhishek Anand | Portfolio",
+  title: "Abhishek Anand",
   description: "Abhishek Anand is a Full Stack (MERN) Developer.",
 };
 

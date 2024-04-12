@@ -5,17 +5,17 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 const servicesData = [
     {
         icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
-        title: 'Web Design',
-        description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates quidem ad nam, reiciendis porro neque?',
-    },
-    {
-        icon: <Blocks size={72} strokeWidth={0.8} />,
         title: 'Web Development',
         description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates quidem ad nam, reiciendis porro neque?',
     },
     {
+        icon: <Blocks size={72} strokeWidth={0.8} />,
+        title: 'Api Development',
+        description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates quidem ad nam, reiciendis porro neque?',
+    },
+    {
         icon: <Gem size={72} strokeWidth={0.8} />,
-        title: 'App Development',
+        title: 'Database Management',
         description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates quidem ad nam, reiciendis porro neque?',
     },
 ]
