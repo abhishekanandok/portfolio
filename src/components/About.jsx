@@ -11,7 +11,7 @@ const infoData = [
     },
     {
         icon: <PhoneCall size={20} />,
-        text: '+91 70507 41633',
+        text: '+91  70507 41633',
     },
     {
         icon: <MailIcon size={20} />,
@@ -23,11 +23,11 @@ const infoData = [
     },
     {
         icon: <GraduationCap size={20} />,
-        text: 'Bechlor in Computer Science',
+        text: 'B Tech in Computer Science(AI)',
     },
     {
         icon: <HomeIcon size={20} />,
-        text: '852139 Triveniganj Supaul, Bihar, India',
+        text: 'Purnea, Bihar, India',
     },
 ]
 
@@ -37,18 +37,18 @@ const qualificationData = [
         title: 'education',
         data: [
             {
-                university: 'Example University',
-                qualification: 'Bachelor Of Science',
+                university: 'Purnea College of Engineering (PCE), Purnea',
+                qualification: 'B Tech in Computer Science(AI)',
                 years: '2022 - 2026',
             },
             {
-                university: 'Example University',
-                qualification: 'PCM',
+                university: 'A L Y College, Triveniganj',
+                qualification: 'Higher Secondary School (PCM)',
                 years: '2019 - 2021',
             },
             {
-                university: 'K C Mount Fort School , Muzafafpur',
-                qualification: '10th',
+                university: 'K C Mount Fort School, Muzaffarpur',
+                qualification: 'High School',
                 years: '2018 - 2019',
             },
         ],
@@ -57,14 +57,14 @@ const qualificationData = [
         title: 'experience',
         data: [
             {
-                company: 'Google.',
+                company: 'yaleFiesta',
                 role: 'Software Developer',
-                years: '2022 - 2026',
+                years: '2024 - Present',
             },
             {
-                company: 'Microsoft.',
-                role: 'Software Developer',
-                years: '2022 - 2026',
+                company: 'Google Developer Student Clubs Lead',
+                role: 'Lead Role',
+                years: '2024 - Present',
             },
             {
                 company: 'Tech Innovators',
@@ -81,13 +81,19 @@ const skillData = [
         title: 'skills',
         data: [
             {
-                name: 'HTML, CSS',
+                name: 'HTML, CSS , JavaScript',
             },
             {
-                name: 'React, NextJs',
+                name: 'Nodejs, Expressjs',
             },
             {
-                name: 'Javascript, Nodejs',
+                name: 'MongoDB, MySQL',
+            },
+            {
+                name: 'Reactjs, Nextjs',
+            },
+            {
+                name: 'Tailwind, Bootstrap',
             },
             {
                 name: 'C, C++',
@@ -101,13 +107,19 @@ const skillData = [
                 imgPath: '/about/vscode.svg',
             },
             {
+                imgPath: '/about/github.svg',
+            },
+            {
+                imgPath: '/about/postman.svg',
+            },
+            {
+                imgPath: '/about/docker.svg',
+            },
+            {
                 imgPath: '/about/figma.svg',
             },
             {
                 imgPath: '/about/notion.svg',
-            },
-            {
-                imgPath: '/about/wordpress.svg',
             },
         ],
     },
@@ -140,9 +152,9 @@ const About = () => {
                                 {/* personal */}
                                 <TabsContent value='personal'>
                                     <div className=" text-center xl:text-left">
-                                        <h3 className="h3 mb-4">Unmatched Service Quality for Over 10 Years</h3>
+                                        <h3 className="h3 mb-4">Unmatched Service Quality For Over 2+ Years</h3>
                                         <p className=" subtitle max-w-xl mx-auto xl:mx-0">
-                                            I specialize in crafting intutive website with cutting-edge technology, delivering dynamic and engaging user experinces.
+                                            I specialize in crafting intuitive website with cutting-edge technology, delivering dynamic and engaging user experiences.
                                         </p>
                                         {/* icons */}
                                         <div className="grid xl:grid-cols-2 gap-4 mb-12">
@@ -185,7 +197,7 @@ const About = () => {
                                                                 <div className=" h-[84px] w-[1px] bg-border relative ml-2">
                                                                     <div className=" w-[11px] h-[11px] rounded-full bg-primary absolute -left-[5px] group-hover:translate-y-[84px] transition-all duration-500"></div>
                                                                 </div>
-                                                                <div>
+                                                                <div className=" md:pr-1">
                                                                     <div className=" font-semibold text-xl leading-none mb-2">{company}</div>
                                                                     <div className=" text-lg leading-none text-muted-foreground mb-4">{role}</div>
                                                                     <div className=" text-base font-medium">{years}</div>

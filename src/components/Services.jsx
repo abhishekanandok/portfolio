@@ -6,17 +6,17 @@ const servicesData = [
     {
         icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
         title: 'Web Development',
-        description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates quidem ad nam, reiciendis porro neque?',
+        description: 'Crafting dynamic and responsive websites using MERN stack technologies for seamless user experiences.',
     },
     {
         icon: <Blocks size={72} strokeWidth={0.8} />,
         title: 'Api Development',
-        description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates quidem ad nam, reiciendis porro neque?',
+        description: 'Building robust and efficient APIs to power your applications with seamless integration and communication between systems.',
     },
     {
         icon: <Gem size={72} strokeWidth={0.8} />,
         title: 'Database Management',
-        description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates quidem ad nam, reiciendis porro neque?',
+        description: 'Implementing optimized database solutions for efficient data storage, retrieval, and management, ensuring scalability and performance.',
     },
 ]
 

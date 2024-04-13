@@ -21,8 +21,8 @@ const Hero = () => {
                     {/* text */}
                     <div className=' flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left'>
                         <div className=' text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]'>Web Developer</div>
-                        <h1 className='h1 mb-4'>Hello, my name is Abhishek Anand</h1>
-                        <p className='subtitle max-w-[490px] mx-auto xl:mx-0'>I am a seasoned Fullstack Developer with robust technical proficiency. Currently, I am in the second year of my Bachelor of Technology program in Computer Science Engineering at Purnea College of Engineering, Purnea.</p>
+                        <h1 className='h1 mb-4'>Hello, My Name is Abhishek Anand</h1>
+                        <p className='subtitle max-w-[490px] mx-auto xl:mx-0'>I am a seasoned Fullstack Developer with robust technical proficiency. Currently, I am in the second year of my Bachelor of Technology program in Computer Science Engineering at Purnea College of Engineering (PCE), Purnea.</p>
                         {/* button */}
                         <div className=' flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12'>
                             <Link href='/contact'><Button className='gap-x-2'>Contact me <Send size={18} /></Button></Link>

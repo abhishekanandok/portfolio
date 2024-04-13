@@ -4,32 +4,33 @@ import {
     RiYoutubeFill,
     RiLinkedinFill,
     RiGithubFill,
-    RiFacebookFill,
-    RiInstagramFill
+    RiTwitterXFill
 } from 'react-icons/ri';
+import { SiLinktree } from "react-icons/si";
+
 
 import Link from 'next/link';
 
 const icons =[
     {
-        path: '/',
+        path: 'https://github.com/abhishekanandok',
         name: <RiGithubFill />,
     },
     {
-        path: '/',
+        path: 'https://www.linkedin.com/in/abhishekanandok/',
         name: <RiLinkedinFill />,
     },
     {
-        path: '/',
+        path: 'https://twitter.com/abhishekanandok',
+        name: <RiTwitterXFill />,
+    },
+    {
+        path: 'https://www.youtube.com/abhishekanandok',
         name: <RiYoutubeFill />,
     },
     {
-        path: '/',
-        name: <RiFacebookFill />,
-    },
-    {
-        path: '/',
-        name: <RiInstagramFill />,
+        path: 'https://linktr.ee/abhishekanandok',
+        name: <SiLinktree />,
     },
 ];
 
@@ -38,7 +39,7 @@ const Socials = ({containerStyles, iconStyles}) => {
     <div className={`${containerStyles}`}>
         {icons.map((icon,index)=> {
             return(
-                <Link href={icon.path} key={index}>
+                <Link href={icon.path} key={index} target="_blank">
                     <div className={`${iconStyles}`}>{icon.name}</div>
                 </Link>
             )
