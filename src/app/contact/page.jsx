@@ -1,6 +1,7 @@
 import React from 'react'
-import {MailIcon,HomeIcon,PhoneCall} from 'lucide-react';
-import Form from '@/components/Form';
+import { MailIcon, HomeIcon, PhoneCall } from 'lucide-react';
+import { RiWhatsappLine } from 'react-icons/ri';
+import ContactForm from '@/components/Form';
 
 const Contact = () => {
   return (
@@ -15,7 +16,7 @@ const Contact = () => {
               Say Hello 👋
             </div>
             <h1 className='h1 max-w-md mb-8'>Let's Work Together.</h1>
-            <p className='subtitle max-w-[400px]'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae cum ullam exercitationem quae laborum.</p>
+            <p className='subtitle max-w-[400px]'>Connect with me effortlessly through my contact page, where every message is a step towards turning your ideas into reality. Let's collaborate and bring your projects to life!</p>
           </div>
           {/* illustration */}
           <div className=' hidden xl:flex w-full bg-contact_illustration_light dark:bg-contact_illustration_dark bg-contain bg-top bg-no-repeat'></div>
@@ -26,19 +27,23 @@ const Contact = () => {
           <div className=' flex flex-col gap-y-4 xl:gap-y-14 mb-12 xl:mb-24 text-base xl:text-lg'>
             {/* mail */}
             <div className="flex items-center gap-x-8">
-              <MailIcon size={18} className=' text-primary'/>
+              <MailIcon size={18} className=' text-primary' />
               <div>abhishekanandok@gmail.com</div>
             </div>
             <div className="flex items-center gap-x-8">
-              <HomeIcon size={18} className=' text-primary'/>
-              <div>852139, Triveniganj Supaul, Bihar, India</div>
+              <HomeIcon size={18} className=' text-primary' />
+              <div>Purnea, Bihar, India</div>
             </div>
             <div className="flex items-center gap-x-8">
-              <PhoneCall size={18} className=' text-primary'/>
+              <PhoneCall size={18} className=' text-primary' />
+              <div>+91 7050741633</div>
+            </div>
+            <div className="flex items-center gap-x-8">
+              <RiWhatsappLine size={22} className=' text-primary' />
               <div>+91 7050741633</div>
             </div>
           </div>
-          <Form/>
+          <ContactForm />
         </div>
       </div>
     </section>

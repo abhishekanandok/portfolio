@@ -1,5 +1,6 @@
 import { Outfit } from "next/font/google";
 import "./globals.css";
+import { Toaster } from "@/components/ui/toaster"
 
 //components
 import Header from "@/components/Header";
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
           <Header />
           {children}
           <Footer />
+          <Toaster />
         </ThemeProvider>
       </body>
     </html>

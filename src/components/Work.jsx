@@ -10,15 +10,15 @@ import ProjectCard from './ProjectCard';
 
 const projectData = [
     {
-        image: '/work/3.png',
+        image: '/work/yaleFiesta.png',
         category: 'next js',
         name: 'yaleFiesta',
-        description: 'A Event/Fest hosting website for colleges. Real world live website with users apporx 2k.',
-        link: '/',
+        description: 'A Event/Fest hosting website for my colleges. Real world live website with users apporx 2k.',
+        link: '#',
         github: 'https://github.com/abhishekanandok/yalefiesta',
     },
     {
-        image: '/work/1.png',
+        image: '/work/wanderlust.png',
         category: 'ejs',
         name: 'Wanderlust',
         description: 'This is a hotel and property booking website, inspired by Airbnb.',
@@ -26,15 +26,15 @@ const projectData = [
         github: 'https://github.com/abhishekanandok/Wanderlust',
     },
     {
-        image: '/work/4.png',
+        image: '/work/portfolio.png',
         category: 'next js',
         name: 'My Portfolio',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum iusto deserunt sed eaque quasi.',
-        link: '/',
+        description: 'This is My Portfolio Website. ',
+        link: 'https://abhishekanandok.com',
         github: 'https://github.com/abhishekanandok/portfolio',
     },
     {
-        image: '/work/3.png',
+        image: '/work/CodeYodha.png',
         category: 'javascript',
         name: 'CodeYodha',
         description: 'Purnea College of Engineering (PCE) Web Hackathon "Event Management Website"',
@@ -42,7 +42,7 @@ const projectData = [
         github: 'https://github.com/abhishekanandok/CodeYodha',
     },
     {
-        image: '/work/3.png',
+        image: '/work/simonGame.png',
         category: 'javascript',
         name: 'SimonGame',
         description: 'Play this basic simon Game !',

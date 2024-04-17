@@ -16,7 +16,7 @@ const servicesData = [
     {
         icon: <Gem size={72} strokeWidth={0.8} />,
         title: 'Database Management',
-        description: 'Implementing optimized database solutions for efficient data storage, retrieval, and management, ensuring scalability and performance.',
+        description: 'Implementing optimized database solutions for efficient data storage, and management, ensuring scalability and performance.',
     },
 ]
 
