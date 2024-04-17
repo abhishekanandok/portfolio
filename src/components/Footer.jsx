@@ -11,7 +11,7 @@ const Footer = () => {
             iconStyles='text-primary dark:text-white/70 text-[20px] hover:text-white dark:hover:text-primary transition-all'
           />
           <div className=' text-muted-foreground'>
-            Copyright &copy; Abhishek Anand. All rights reserved.
+            Copyright &copy; Abhishek Anand &hearts;. All rights reserved.
           </div>
         </div>
       </div>

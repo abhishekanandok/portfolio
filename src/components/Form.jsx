@@ -8,7 +8,6 @@ import {
     FormItem,
     FormLabel,
     FormMessage,
-    FormDescription,
 } from '@/components/ui/form';
 import * as z from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';
@@ -16,7 +15,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from './ui/textarea';
 import { Button } from '@/components/ui/button';
 import { useToast } from "@/components/ui/use-toast";
-import { User, MailIcon, ArrowRightIcon, MessageSquare } from 'lucide-react';
+import {ArrowRightIcon } from 'lucide-react';
 
 
 
@@ -45,9 +44,9 @@ const ContactForm = () => {
     const { toast } = useToast();
 
     const onSubmit = (values) => {
-        console.log(values);
+        // console.log(values);
         toast({
-            title: "Thanks 🙏",
+            title: "Thanks You🙏",
             description: "I shall contact you soon.",
           })
     };
@@ -76,7 +75,7 @@ const ContactForm = () => {
                             name='email'
                             render={({ field }) => (
                                 <FormItem>
-                                    <FormLabel className=" after:content-['*'] after:ml-0.5 after:text-red-500">Email</FormLabel>
+                                    <FormLabel className=" after:content-['*'] after:ml-0.5 after:text-red-500" >Email</FormLabel>
                                     <FormControl>
                                         <Input placeholder='mail@example.com' {...field} />
                                     </FormControl>

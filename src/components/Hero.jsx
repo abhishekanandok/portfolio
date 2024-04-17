@@ -19,7 +19,7 @@ const Hero = () => {
             <div className=' container mx-auto'>
                 <div className=' flex justify-between gap-x-8'>
                     {/* text */}
-                    <div className=' flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left'>
+                    <div className=' flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center lg:text-left'>
                         <div className=' text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]'>Web Developer</div>
                         <h1 className='h1 mb-4'>Hello, My Name is Abhishek Anand</h1>
                         <p className='subtitle max-w-[490px] mx-auto xl:mx-0'>I am a seasoned Fullstack Developer with robust technical proficiency. Currently, I am in the second year of my Bachelor of Technology program in Computer Science Engineering at Purnea College of Engineering (PCE), Purnea.</p>
@@ -32,7 +32,7 @@ const Hero = () => {
                         <Socials containerStyles='flex gap-x-6 mx-auto xl:mx-0' iconStyles='text-foreground text-[22px] hover:text-primary transition-all' />
                     </div>
                     {/* image */}
-                    <div className=' hidden xl:flex relative'>
+                    <div className=' hidden lg:flex relative'>
                         {/* badge */}
                         <Badge
                             containerStyles='absolute top-[24%] -left-[5rem]'
@@ -59,7 +59,7 @@ const Hero = () => {
                     </div>
                 </div>
                 {/* icon */}
-                <div className=' hidden md:flex absolute left-2/4 bottom-44 xl:bottom-12 animate-bounce'>
+                <div className='flex absolute left-2/4 bottom-12 animate-bounce'>
                     <RiArrowDownSLine className=' text-3xl text-primary' />
                 </div>
             </div>
