@@ -11,10 +11,20 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 
 const outfit = Outfit({ subsets: ["latin"] });
 
+
 export const metadata = {
-  title: "Abhishek Anand",
+  title: {
+      default: "Abhishek Anand",
+      template: "%s | Abhishek Anand"
+  },
   description: "Abhishek Anand is a Full Stack (MERN) Developer.",
+  keywords: ['Web Developer(MERN)', 'Reactjs Developer','Nextjs Developer', 'Software Developer'],
+  twitter: {
+    card: "summary_large_image"
+  },
+  publisher: 'Abhishek Anand',
 };
+
 
 export default function RootLayout({ children }) {
   return (

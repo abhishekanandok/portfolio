@@ -91,7 +91,7 @@ const ContactForm = () => {
                                     <FormLabel className=" after:content-['*'] after:ml-0.5 after:text-red-500">Message</FormLabel>
                                     <FormControl>
                                         <Textarea
-                                            placeholder="ex- hi , i wana to build build something...."
+                                            placeholder="ex- hi , i wana to build something...."
                                             {...field}
                                         />
                                     </FormControl>

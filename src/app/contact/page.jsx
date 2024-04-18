@@ -3,6 +3,12 @@ import { MailIcon, HomeIcon, PhoneCall } from 'lucide-react';
 import { RiWhatsappLine } from 'react-icons/ri';
 import ContactForm from '@/components/Form';
 
+
+export const metadata = {
+  title: "Contact",
+  description: "Connect with me effortlessly through my contact page, where every message is a step towards turning your ideas into reality. Let's collaborate and bring your projects to life!",
+};
+
 const Contact = () => {
   return (
     <section>
