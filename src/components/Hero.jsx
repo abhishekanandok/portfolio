@@ -2,7 +2,6 @@ import React from 'react'
 import Link from "next/link";
 import { Download, Send } from 'lucide-react';
 import {
-    Ribriefcase4Fill,
     RiTeamFill,
     RiTodoFill,
     RiArrowDownSLine,
@@ -22,11 +21,11 @@ const Hero = () => {
                     <div className=' flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center lg:text-left'>
                         <div className=' text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]'>Web Developer</div>
                         <h1 className='h1 mb-4'>Hello, My Name is Abhishek Anand</h1>
-                        <p className='subtitle max-w-[490px] mx-auto xl:mx-0'>I am a seasoned Fullstack Developer with robust technical proficiency. Currently, I am in the second year of my Bachelor of Technology program in Computer Science Engineering at Purnea College of Engineering (PCE), Purnea.</p>
+                        <p className='subtitle max-w-[490px] mx-auto xl:mx-0'>Welcome to the portfolio of Abhishek Anand, a proficient MERN Stack Developer specializing in JavaScript, MongoDB, Express.js, Reactjs, Nextjs, and Node.js. Explore my projects and services now.</p>
                         {/* button */}
                         <div className=' flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12'>
                             <Link href='/contact'><Button className='gap-x-2'>Contact me <Send size={18} /></Button></Link>
-                            <Button variant='secondary' className='gap-x-2'>Download CV <Download size={18} /></Button>
+                            <Link href='https://drive.google.com/uc?export=download&id=1YupPlIPi4oZjWn4tYP0kAsD4cpyMQmW5' target="_blank" download="Abhishek Anand Resume"><Button variant='secondary' className='gap-x-2'>Download CV <Download size={18} /></Button></Link>
                         </div>
                         {/* socials */}
                         <Socials containerStyles='flex gap-x-6 mx-auto xl:mx-0' iconStyles='text-foreground text-[22px] hover:text-primary transition-all' />
@@ -67,4 +66,4 @@ const Hero = () => {
     )
 }
 
-export default Hero
+export default Hero;

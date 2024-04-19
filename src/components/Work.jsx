@@ -75,7 +75,7 @@ const Work = () => {
                         }}
                         spaceBetween={30}
                         modules={[Pagination]}
-                        pagination={{clickable: true}}
+                        pagination={{ clickable: true }}
                     >
                         {/* show only the first 4 */}
                         {projectData.slice(0, 4).map((project, index) => {

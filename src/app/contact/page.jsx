@@ -9,6 +9,7 @@ export const metadata = {
   description: "Connect with me effortlessly through my contact page, where every message is a step towards turning your ideas into reality. Let's collaborate and bring your projects to life!",
 };
 
+
 const Contact = () => {
   return (
     <section>

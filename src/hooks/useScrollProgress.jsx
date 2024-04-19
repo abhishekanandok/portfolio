@@ -17,10 +17,10 @@ const useScrollProgress = () => {
         window.addEventListener('scroll', updateScrollCompletion);
 
         //clear event
-        return ()=> window.removeEventListener('scroll', updateScrollCompletion);
+        return () => window.removeEventListener('scroll', updateScrollCompletion);
 
-    },[]);
+    }, []);
     return completion;
 }
 
-export default useScrollProgress
+export default useScrollProgress;

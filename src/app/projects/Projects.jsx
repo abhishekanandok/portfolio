@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useState } from 'react';
-import Link from 'next/link';
 import ProjectCard from '@/components/ProjectCard';
 import { Tabs, TabsList, TabsContent, TabsTrigger } from '@/components/ui/tabs';
 

@@ -92,6 +92,7 @@
 }
 
 /* swiper bullet styles */
-.swiper-horizontal > .section-pagination-bullets .swiper-pagination-bullets, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+.swiper-horizontal>.section-pagination-bullets .swiper-pagination-bullets,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
   @apply bg-primary;
 }

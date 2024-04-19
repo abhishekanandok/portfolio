@@ -11,7 +11,7 @@ import { SiLinktree } from "react-icons/si";
 
 import Link from 'next/link';
 
-const icons =[
+const icons = [
     {
         path: 'https://github.com/abhishekanandok',
         name: <RiGithubFill />,
@@ -34,18 +34,18 @@ const icons =[
     },
 ];
 
-const Socials = ({containerStyles, iconStyles}) => {
-  return (
-    <div className={`${containerStyles}`}>
-        {icons.map((icon,index)=> {
-            return(
-                <Link href={icon.path} key={index} target="_blank">
-                    <div className={`${iconStyles}`}>{icon.name}</div>
-                </Link>
-            )
-        })}
-    </div>
-  )
+const Socials = ({ containerStyles, iconStyles }) => {
+    return (
+        <div className={`${containerStyles}`}>
+            {icons.map((icon, index) => {
+                return (
+                    <Link href={icon.path} key={index} target="_blank">
+                        <div className={`${iconStyles}`}>{icon.name}</div>
+                    </Link>
+                )
+            })}
+        </div>
+    )
 }
 
 export default Socials;

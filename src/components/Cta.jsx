@@ -16,4 +16,4 @@ const Cta = () => {
     )
 }
 
-export default Cta
+export default Cta;
