@@ -25,7 +25,7 @@ To get a local copy of this project up and running on your machine, follow these
    ```
 2. Navigate into the project directory:
    ```
-   cd your-portfolio
+   cd portfolio
    ```
 3. Install dependencies:
    ```
