@@ -32,7 +32,7 @@ To get a local copy of this project up and running on your machine, follow these
    npm install
    ```
 4. Set up environment variables:
-   - Create a `.env.local` file in the root directory
+   - Create a `.env` file in the root directory
    - Add the necessary environment variables (e.g., MongoDB connection string)
 
 ### Usage
