@@ -1,6 +1,7 @@
 import { Outfit } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster"
+import ogImage from './opengraph-image.png'
 //components
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -18,10 +19,28 @@ export const metadata = {
   },
   description: "Welcome to the portfolio of Abhishek Anand, a proficient MERN Stack Developer specializing in JavaScript, MongoDB, Express.js, Reactjs, Nextjs, and Node.js. Explore my projects and services now.",
   keywords: ['Web Developer(MERN)', 'Reactjs Developer', 'Nextjs Developer', 'Software Developer'],
-  twitter: {
-    card: "summary_large_image"
-  },
   publisher: 'Abhishek Anand',
+
+  metadataBase: new URL("https://abhishekanandok.vercel.app"),
+  openGraph: {
+    images: [
+      {
+        url: ogImage.src,
+        width: ogImage.width,
+        height: ogImage.height
+      },
+    ],
+  },
+  twitter: {
+    images: [
+      {
+        url: ogImage.src,
+        width: ogImage.width,
+        height: ogImage.height
+      },
+    ],
+    card: "summary_large_image",
+  },
 };
 
 
