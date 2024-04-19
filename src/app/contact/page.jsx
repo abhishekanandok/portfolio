@@ -22,8 +22,8 @@ const Contact = () => {
               <span className=' w-[30px] h-[2px] bg-primary'></span>
               Say Hello 👋
             </div>
-            <h1 className='h1 max-w-md mb-8'>Let's Work Together.</h1>
-            <p className='subtitle max-w-[400px]'>Connect with me effortlessly through my contact page, where every message is a step towards turning your ideas into reality. Let's collaborate and bring your projects to life!</p>
+            <h1 className='h1 max-w-md mb-8'>Let&apos;s Work Together.</h1>
+            <p className='subtitle max-w-[400px]'>Connect with me effortlessly through my contact page, where every message is a step towards turning your ideas into reality. Let&apos;s collaborate and bring your projects to life!</p>
           </div>
           {/* illustration */}
           <div className=' hidden md:flex w-full bg-contact_illustration_light dark:bg-contact_illustration_dark bg-contain bg-top bg-no-repeat'></div>

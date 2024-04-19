@@ -19,7 +19,7 @@ import { ArrowRightIcon } from 'lucide-react';
 import { addContactForm } from "@/lib/action";
 import { useFormState } from "react-dom";
 import { useRouter } from "next/navigation";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 
 
 
@@ -48,7 +48,7 @@ const ContactForm = () => {
     const [state, formAction] = useFormState(addContactForm, undefined);
 
     const router = useRouter();
-    const { toast } = useToast()
+    const { toast } = useToast();
 
     useEffect(() => {
         state?.success && router.push("/");
@@ -117,7 +117,7 @@ const ContactForm = () => {
                     />
 
                     <Button className='flex items-center gap-x-1 max-w-[166px] mt-2' type='submit' >
-                        Let's Talk
+                        Let&apos;s Talk
                         <ArrowRightIcon size={20} />
                     </Button>
                 </form>
