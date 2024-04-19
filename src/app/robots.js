@@ -4,6 +4,6 @@ export default function robots() {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: `${process.env.DOMAIN}`,
+    sitemap: `${process.env.DOMAIN}/sitemap.xml`,
   }
 }

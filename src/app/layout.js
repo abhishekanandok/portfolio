@@ -14,11 +14,11 @@ const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata = {
   title: {
-      default: "Abhishek Anand",
-      template: "%s | Abhishek Anand"
+    default: "Abhishek Anand - MERN Stack Developer Portfolio",
+    template: "%s - Abhishek Anand"
   },
-  description: "Abhishek Anand is a Full Stack (MERN) Developer.",
-  keywords: ['Web Developer(MERN)', 'Reactjs Developer','Nextjs Developer', 'Software Developer'],
+  description: "Welcome to the portfolio of Abhishek Anand, a proficient MERN Stack Developer specializing in JavaScript, MongoDB, Express.js, Reactjs, Nextjs, and Node.js. Explore my projects and services now.",
+  keywords: ['Web Developer(MERN)', 'Reactjs Developer', 'Nextjs Developer', 'Software Developer'],
   twitter: {
     card: "summary_large_image"
   },
