@@ -25,7 +25,7 @@ const Hero = () => {
                         {/* button */}
                         <div className=' flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12'>
                             <Link href='/contact'><Button className='gap-x-2'>Contact me <Send size={18} /></Button></Link>
-                            <Link href='https://drive.google.com/uc?export=download&id=1YupPlIPi4oZjWn4tYP0kAsD4cpyMQmW5' target="_blank" download="Abhishek Anand Resume"><Button variant='secondary' className='gap-x-2'>Download CV <Download size={18} /></Button></Link>
+                            <Link href='https://drive.google.com/file/d/1fkNjNIFyPLscMVYIc8RfCCepIYau7jaf/view?usp=sharing' target="_blank" download="Abhishek Anand SDE Resume"><Button variant='secondary' className='gap-x-2'>Download CV <Download size={18} /></Button></Link>
                         </div>
                         {/* socials */}
                         <Socials containerStyles='flex gap-x-6 mx-auto xl:mx-0' iconStyles='text-foreground text-[22px] hover:text-primary transition-all' />
